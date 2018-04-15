@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'brandon_textbold';
+    src: url('hvd_fonts_-_brandontext-bold-webfont.woff2') format('woff2'),
+         url('hvd_fonts_-_brandontext-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper div {
+  flex: 1;
+  border:0.5px solid grey;
+  margin: 50px;
+  padding: 50px;
+  
+}
+
+.wrapper div img {
+  border-radius: 50%;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+
+.header h1 {
+	font-family: 'Brandon Text';
+	font-size: 67px;
+	font-weight: bold;
+	letter-spacing: 7px;
+	text-align: center;
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 5px;
+	width: 100%
+}
+.header h5 {
+	font-family: 'Brandon Text';
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 7px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	width: 100%
+
+}
+
+.main {
+	font-family: 'Brandon Text';
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: block;
+	text-align: center;
+	vertical-align: top;
+}
+
+
+.text {
+	font-family: 'Brandon Text';
+	font-size: 15px;
+	color: black;
+	font-weight: lighter;
+	display: block;
+	text-align: center;
+	vertical-align: top;
+	
+}
+
+.link {
+	font-family: 'Brandon Text';
+	font-size: 10px;
+	color: black;
+	font-weight: bold;
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+	vertical-align: top;
+}
+
+a {
+	text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: #E6C9BB;
+}
+
+/* selected link */
+a:active {
+    color: #E6C9BB;
+}
+	
+
+
